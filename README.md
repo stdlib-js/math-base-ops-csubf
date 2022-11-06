@@ -39,7 +39,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-csubf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-csubf@umd/browser.js' )
+csubf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-csubf@v0.0.2-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -51,7 +51,7 @@ var csubf = require( 'path/to/vendor/umd/math-base-ops-csubf/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-csubf@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-csubf@v0.0.2-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
