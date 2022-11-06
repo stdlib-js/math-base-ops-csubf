@@ -37,7 +37,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import csubf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-csubf@esm/index.mjs';
+import csubf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-csubf@v0.0.2-esm/index.mjs';
 ```
 
 #### csubf( z1, z2 )
@@ -80,7 +80,7 @@ var im = imag( v );
 
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32@esm/index.mjs';
 var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
-import csubf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-csubf@esm/index.mjs';
+import csubf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-ops-csubf@v0.0.2-esm/index.mjs';
 
 var rand;
 var z1;
