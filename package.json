@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-ops-csubf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Subtract two single-precision complex floating-point numbers.",
   "license": "Apache-2.0",
   "author": {
