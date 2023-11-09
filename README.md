@@ -239,6 +239,14 @@ int main( void ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/math-base/ops/caddf`][@stdlib/math/base/ops/caddf]</span><span class="delimiter">: </span><span class="description">add two single-precision complex floating-point numbers.</span>
+-   <span class="package-name">[`@stdlib/math-base/ops/cmulf`][@stdlib/math/base/ops/cmulf]</span><span class="delimiter">: </span><span class="description">multiply two single-precision complex floating-point numbers.</span>
+-   <span class="package-name">[`@stdlib/math-base/ops/csub`][@stdlib/math/base/ops/csub]</span><span class="delimiter">: </span><span class="description">subtract two double-precision complex floating-point numbers.</span>
+
 </section>
 
 <!-- /.related -->
@@ -311,6 +319,16 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [branches-url]: https://github.com/stdlib-js/math-base-ops-csubf/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-ops-csubf/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/ops/caddf]: https://github.com/stdlib-js/math-base-ops-caddf
+
+[@stdlib/math/base/ops/cmulf]: https://github.com/stdlib-js/math-base-ops-cmulf
+
+[@stdlib/math/base/ops/csub]: https://github.com/stdlib-js/math-base-ops-csub
+
+<!-- </related-links> -->
 
 </section>
 
