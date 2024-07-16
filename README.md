@@ -74,7 +74,7 @@ var csubf = require( '@stdlib/math-base-ops-csubf' );
 Subtracts two single-precision complex floating-point numbers.
 
 ```javascript
-var Complex64 = require( '@stdlib/complex-float32' );
+var Complex64 = require( '@stdlib/complex-float32-ctor' );
 var realf = require( '@stdlib/complex-realf' );
 var imagf = require( '@stdlib/complex-imagf' );
 
@@ -102,7 +102,7 @@ var im = imagf( v );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var Complex64 = require( '@stdlib/complex-float32' );
+var Complex64 = require( '@stdlib/complex-float32-ctor' );
 var discreteUniform = require( '@stdlib/random-base-discrete-uniform' ).factory;
 var csubf = require( '@stdlib/math-base-ops-csubf' );
 
@@ -156,7 +156,7 @@ for ( i = 0; i < 100; i++ ) {
 Subtracts two single-precision complex floating-point numbers.
 
 ```c
-#include "stdlib/complex/float32.h"
+#include "stdlib/complex/float32/ctor.h"
 #include "stdlib/complex/realf.h"
 #include "stdlib/complex/imagf.h"
 
@@ -200,8 +200,8 @@ stdlib_complex64_t stdlib_base_csubf( const stdlib_complex64_t z1, const stdlib_
 
 ```c
 #include "stdlib/math/base/ops/csubf.h"
-#include "stdlib/complex/float32.h"
-#include "stdlib/complex/reimf.h"
+#include "stdlib/complex/float32/ctor.h"
+#include "stdlib/complex/float32/reim.h"
 #include <stdio.h>
 
 int main( void ) {
@@ -219,11 +219,11 @@ int main( void ) {
     int i;
     for ( i = 0; i < 4; i++ ) {
         v = x[ i ];
-        stdlib_reimf( v, &re, &im );
+        stdlib_complex64_reim( v, &re, &im );
         printf( "z = %f + %fi\n", re, im );
 
         y = stdlib_base_csubf( v, v );
-        stdlib_reimf( y, &re, &im );
+        stdlib_complex64_reim( y, &re, &im );
         printf( "csubf(z, z) = %f + %fi\n", re, im );
     }
 }
