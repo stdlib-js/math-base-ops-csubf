@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2021 The Stdlib Authors.
+* Copyright (c) 2019 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,24 +16,18 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
-var float64ToFloat32 = require( '@stdlib/number-float64-base-to-float32' );
-var Complex64 = require( '@stdlib/complex-float32-ctor' );
-var realf = require( '@stdlib/complex-realf' );
-var imagf = require( '@stdlib/complex-imagf' );
-
-
-// MAIN //
+import { Complex64 } from '@stdlib/types/complex';
 
 /**
 * Subtracts two single-precision complex floating-point numbers.
 *
-* @param {Complex64} z1 - complex number
-* @param {Complex64} z2 - complex number
-* @returns {Complex64} result
+* @param z1 - complex number
+* @param z2 - complex number
+* @returns result
 *
 * @example
 * var Complex64 = require( '@stdlib/complex-float32-ctor' );
@@ -55,13 +49,9 @@ var imagf = require( '@stdlib/complex-imagf' );
 * var im = imagf( out );
 * // returns 2.0
 */
-function csubf( z1, z2 ) {
-	var re = float64ToFloat32( realf( z1 ) - realf( z2 ) );
-	var im = float64ToFloat32( imagf( z1 ) - imagf( z2 ) );
-	return new Complex64( re, im );
-}
+declare function csubf( z1: Complex64, z2: Complex64 ): Complex64;
 
 
 // EXPORTS //
 
-module.exports = csubf;
+export = csubf;
