@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-ops-csubf",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Subtract two single-precision complex floating-point numbers.",
   "license": "Apache-2.0",
   "author": {
@@ -44,7 +44,7 @@
     "@stdlib/complex-float32-imag": "^0.1.1",
     "@stdlib/complex-float32-real": "^0.1.1",
     "@stdlib/complex-float32-reim": "^0.1.2",
-    "@stdlib/math-base-napi-binary": "^0.2.1",
+    "@stdlib/math-base-napi-binary": "^0.3.0",
     "@stdlib/number-float64-base-to-float32": "^0.2.2",
     "@stdlib/types": "^0.3.2",
     "@stdlib/utils-library-manifest": "^0.2.2"
